@@ -29,4 +29,5 @@ for p in dados:
     else:
         print(f"{p[0]}é menor de idade")
         totmen += 1
-print("O total de maior idade e {}")
+print(f"O total de maior idade e {totm}")
+print(f'O total menor de idade e {totmen}')
