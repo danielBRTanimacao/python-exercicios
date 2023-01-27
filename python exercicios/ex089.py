@@ -6,7 +6,7 @@ while True:
     media = (nota1 + nota2) / 2
     ficha.append([nome, [nota1, nota2], media])
     resp = str(input("Deseja continuar?[S/N] ")).upper()[0]
-    if resp in 'N':
+    if resp in 'Nn':
         break
 print("-="*20)
 print(f"{'N°':<5}{'NOME':<10}{'MEDIA':>8}")
