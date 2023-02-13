@@ -63,3 +63,12 @@ print(f"a fora recebe {a}")
 funcao(a)
 '''
 #RETORNANDO VALORES
+def somar(a, b, c=0):
+    soma = a + b + c
+    return soma
+
+
+r1 = somar(1, 4)
+r2 = somar(4, 5, 6)
+r3 = somar(6, 1)
+print(f"A soma dos valores é {r1}, {r2} e {r3}")
