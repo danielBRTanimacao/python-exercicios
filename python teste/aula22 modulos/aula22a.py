@@ -1,10 +1,4 @@
-def fatorial(n):
-    f = 1
-    for c in range(1, n+1):
-        f *= c
-    return f
-
-
+import uteis
 num = int(input("Digite um número para ver seu fatorial: "))
-fat = fatorial(num)
+fat = uteis.fatorial(num)
 print(f"O Fatorial de {num} é {fat}")
