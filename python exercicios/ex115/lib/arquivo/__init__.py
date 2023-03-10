@@ -1,0 +1,2 @@
+def arquivoExiste(nome):
+    pass
