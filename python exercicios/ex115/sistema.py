@@ -1,10 +1,17 @@
 from lib.interface import *
 from time import sleep
+from lib.arquivo import *
+
+arq = 'curso_em_video.txt'
+
+if not arquivoExiste(arq):
+    criarArquivo(arq)
 
 while True:
     resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do sistema'])
     if resposta == 1:
-        print('opc 1')
+        #opção listar conteudo
+        lerArquivo(arq)
     elif resposta == 2:
         print('opc 2')
     elif resposta == 3:
